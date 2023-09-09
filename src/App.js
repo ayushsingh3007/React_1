@@ -1,23 +1,18 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Display1 from "./Compo/Display1"
+import Display2 from "./Compo/Display2"
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <Display1/> 
+    <Display2/> 
+
+    <h1 style={{ color: "blue",textAlign:"center",backgroundColor:"pink"}} >Styling using Functional and Class Component</h1>
+
+      
     </div>
   );
 }
